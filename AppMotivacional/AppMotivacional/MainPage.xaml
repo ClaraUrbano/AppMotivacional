@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMotivacional.MainPage"
+             BackgroundImageSource="fundo1.png">
+
+    <StackLayout>
+
+        <Label Text="Frases" FontFamily="fonte1" FontSize="60" HorizontalTextAlignment="Center" TextColor="#8B4513">          </Label>
+        <Label Text="Motivacionais" FontFamily="fonte1" FontSize="60" HorizontalTextAlignment="Center" TextColor="#8B4513">   </Label>
+
+        <Label Text=""/>
+
+        <Label Text="Clique no botão e leia uma:" FontSize="20" HorizontalTextAlignment="Center" TextColor="#8B4513"></Label>
+        <Label Text=""/>
+        <Button x:Name="btnMotivacional" Text=" Buscar Frase " TextColor="White" Clicked="btnMotivacional_Clicked" HorizontalOptions="CenterAndExpand" BackgroundColor="#8B4513" />
+
+       
+    </StackLayout>
+
+</ContentPage>
